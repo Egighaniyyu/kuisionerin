@@ -1,0 +1,159 @@
+/* utility */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins&display=swap");
+
+.btn-secondary {
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: 1px solid #008aff;
+  color: #008aff;
+  margin-right: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn-secondary:hover {
+  background-color: #008aff;
+  color: #fff;
+}
+
+.btn-primary {
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: 1px solid #008aff;
+  color: #fff;
+  background-color: #008aff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn-primary:hover {
+  background-color: #0079e4;
+  color: #fff;
+}
+
+/* navbar */
+.navbar {
+  padding: 30px 0 !important;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* margin top content */
+#content,
+#form {
+  margin-top: 100px;
+}
+
+/** Home */
+
+/* content */
+
+#content h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  color: #008aff;
+}
+
+#content img {
+  width: 100%;
+}
+
+/** Register */
+
+/* role */
+.card-role {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg-form.png");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 24px 39px 98px 50px;
+}
+
+.desc-role-title,
+.desc-role-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+.desc-role-title {
+  margin-bottom: 44px;
+}
+
+.desc-role-list {
+  margin-bottom: 36px;
+}
+
+.title-role {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.list-role {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+/* form */
+.sec-form {
+  padding: 46px 64px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.title-form {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #008aff;
+  margin-bottom: 22px;
+}
+
+.form-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #008aff;
+}
+
+.form-control {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 18px 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #c4c4c4;
+}
