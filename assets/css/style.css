@@ -12,6 +12,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  background-color: #fff;
 }
 
 .btn-secondary:hover {
@@ -44,9 +45,35 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #c4c4c4;
+}
+
+.nav-link.active {
+  color: #008aff !important;
+}
+
+.nav-link:nth-child(odd) {
+  margin-right: 70px;
+}
+
+.nav-link:nth-child(2) {
+  margin-right: 70px;
+}
+
 /* margin top content */
 #content,
 #form {
+  margin-top: 100px;
+}
+
+#header {
   margin-top: 100px;
 }
 
@@ -156,4 +183,233 @@
   line-height: 19px;
 
   color: #c4c4c4;
+}
+
+/** home-admin */
+
+/* header */
+.banner {
+  background-color: #008aff;
+  padding: 28px 54px;
+  border-radius: 10px;
+}
+
+.title-banner {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.desc-banner {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+/* data kuisioner */
+#kuisioner {
+  margin-top: 65px;
+  margin-bottom: 300px;
+}
+.card-data-kuisioner {
+  padding: 40px 48px;
+  background: rgba(78, 174, 255, 0.1);
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+.title-data-kuisioner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+
+.title-data-kuisioner h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #008aff;
+}
+
+.card-data-kuisioner h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #008aff;
+  margin-top: 35px;
+}
+
+/** form-admin-filled  */
+#content-kuisioner {
+  margin-bottom: 14px;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #008aff;
+  border-top-color: #fff !important;
+  border-right-color: #fff !important;
+  border-bottom-color: #008aff !important;
+  border-left-color: #fff;
+}
+
+.card-kuisioner {
+  padding: 16px 42px;
+  background: rgba(78, 174, 255, 0.3);
+  border-radius: 10px;
+  margin-top: 36px;
+}
+
+.data-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+}
+
+.data-form-text h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #008aff;
+}
+
+.data-form-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #464444;
+}
+
+.card-kuisioner p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #464444;
+}
+
+.card-kuisioner a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #008aff;
+  text-decoration: none;
+}
+
+/** form-admin-empty */
+.sec-form-empty {
+  margin-top: 75px;
+}
+
+.sec-form-empty h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #c4c4c4;
+  margin-top: 12px;
+  margin-bottom: 26px;
+}
+
+/** question  */
+.sec-form-question {
+  padding: 46px 64px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+/** list-question  */
+#likert {
+  text-align: center;
+}
+#likert td:nth-child(1) {
+  width: 100vw;
+}
+#likert td {
+  width: 15vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #464444;
+}
+
+#likert td:nth-last-child(1) {
+  width: 100vw;
+}
+
+.sec-question-likert {
+  border: 1px solid #008aff;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 36px;
+}
+
+.sec-question-likert h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #464444;
+  margin-bottom: 12px;
+}
+
+/** hasil */
+.sec-desc-hasil h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #464444;
+  margin-bottom: 36px;
+}
+
+.sec-desc-hasil p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #464444;
+  margin-bottom: 48px;
 }
